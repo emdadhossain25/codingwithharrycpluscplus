@@ -1,0 +1,5 @@
+google.com // query returns us pages these are high level
+if we go inside google server is called low levels
+lowest level is call 01 // closer to hardware
+high level is abstraction of low level // distant from hardware
+c++ and c are called low level language cause we can manage control memory;
