@@ -1,14 +1,9 @@
 #include <iostream>
 using namespace std;
-// this is a single line comment
-/*this
-is
-a multi
-line
-comment
-*/
+
 int main()
 {
-    cout << "hello world!" << endl;
+    int sum =9;
+    cout << "hello world! "<<sum << endl;
     return 0;
 }
