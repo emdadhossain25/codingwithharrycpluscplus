@@ -38,6 +38,13 @@ int main()
     cout << "the value of a<b is: " << (a < b) << endl;
     cout << "the value of a<=b is: " << (a <= b) << endl;
     cout << "the value of a>=b is: " << (a >= b) << endl;
+    cout << endl;
+
+    // logical operators
+    cout << "following are the logical operators in c++" << endl;
+    cout << "the value of this logical and operator ((a == b) && (a<b)) is: " << ((a == b) && (a < b)) << endl;
+    cout << "the value of this logical or operator ((a == b) || (a<b)) is: " << ((a == b) || (a < b)) << endl;
+    cout << "the value of this logical not operator !(a == b) is: " << !(a == b)  << endl;
 
     return 0;
 }
