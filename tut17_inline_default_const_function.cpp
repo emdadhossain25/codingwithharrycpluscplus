@@ -68,4 +68,3 @@ inline int product(int a, int b)
     return a * b;
 };
 
-int strlen(const char *p)
