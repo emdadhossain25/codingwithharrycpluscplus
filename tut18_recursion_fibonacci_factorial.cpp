@@ -5,6 +5,7 @@
 using namespace std;
 
 int factorial(int);
+int fibonacci(int);
 int main()
 {
     // freopen("input.txt", "r", stdin);
@@ -17,9 +18,9 @@ int main()
     int n;
     cout << "Enter a number" << endl;
     cin >> n;
-    cout << "The factorial of a is " << factorial(n) << endl;
+    // cout << "The factorial of a is " << factorial(n) << endl;
+    cout << "The term in fibonacci sequence position for " << n << " is at " << fibonacci(n) << endl;
     return 0;
-
 
     // step by step definition of factorial 4
     // 4! = 4*factorial(3)
@@ -39,4 +40,14 @@ int factorial(int n)
     }
 
     return n * factorial(n - 1);
+}
+
+int fibonacci(int n)
+{
+    if (n < 2)
+    {
+        return 1;
+    }
+
+    return fibonacci(n - 2) + fibonacci(n - 1);
 }
