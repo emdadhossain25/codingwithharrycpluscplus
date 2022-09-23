@@ -30,13 +30,15 @@ using namespace std;
 
 class Binary
 {
-    string s;
 
 public:
     void read(void);
-    void chk_bin(void);
     void ones_compliment(void);
     void display(void);
+
+private:
+    string s; // by default variable is private in classes of C++
+    void chk_bin(void);
 };
 
 void Binary::read(void)
@@ -60,6 +62,10 @@ void Binary::chk_bin(void)
 
 void Binary::ones_compliment(void)
 {
+
+    // nesting member functions in this case chk_bin inside ones_compliment function
+    chk_bin();
+
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '1')
@@ -89,7 +95,7 @@ int main()
     // driver function for binary
     Binary b;
     b.read();
-    b.chk_bin();
+    // b.chk_bin();
     b.ones_compliment();
     b.display();
     return 0;
