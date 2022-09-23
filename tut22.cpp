@@ -1,3 +1,26 @@
+// freopen("input.txt", "r", stdin);
+// freopen("output.txt", "w", stdout);
+// OOPS - classess and object
+
+// C++ --> was initially called C with classes by stroustroup
+// class --> extensions of structures (from c) by stroustoup
+// structures had limitations
+// members are public
+// no methods
+
+// classes --> structures+more
+// classes --> can have methods and properties;
+// classes --> can make a few members as private and make few as public
+// structures in C++ are typedef
+// you can declare objects along with class declaration
+
+/**
+ * Class Employee{
+ * class definition
+ * } harry, rohan,lovish
+ * */
+// harry.salary = 8 makes no sense if salary is private member
+
 #include <iostream>
 #include <string>
 #include <bits/stdc++.h>
@@ -58,32 +81,10 @@ void Binary::display(void)
 
         cout << s.at(i);
     }
-    cout<<endl;
+    cout << endl;
 }
 int main()
 {
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // OOPS - classess and object
-
-    // C++ --> was initially called C with classes by stroustroup
-    // class --> extensions of structures (from c) by stroustoup
-    // structures had limitations
-    // members are public
-    // no methods
-
-    // classes --> structures+more
-    // classes --> can have methods and properties;
-    // classes --> can make a few members as private and make few as public
-    // structures in C++ are typedef
-    // you can declare objects along with class declaration
-
-    /**
-     * Class Employee{
-     * class definition
-     * } harry, rohan,lovish
-     * */
-    // harry.salary = 8 makes no sense if salary is private member
 
     // driver function for binary
     Binary b;
