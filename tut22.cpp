@@ -52,7 +52,7 @@ void Binary::ones_compliment(void)
 
 void Binary::display(void)
 {
-    cout<<"Displaying your binary number"<<endl;
+    cout << "Displaying your binary number" << endl;
     for (int i = 0; i < s.length(); i++)
     {
 
@@ -88,7 +88,7 @@ int main()
     Binary b;
     b.read();
     b.chk_bin();
-    b.ones();
+    b.ones_compliment();
     b.display();
     return 0;
 }
