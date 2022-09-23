@@ -58,6 +58,7 @@ void Binary::display(void)
 
         cout << s.at(i);
     }
+    cout<<endl;
 }
 int main()
 {
