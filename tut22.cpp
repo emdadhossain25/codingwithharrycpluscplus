@@ -52,7 +52,7 @@ void Binary::ones_compliment(void)
 
 void Binary::display(void)
 {
-    cout << "Displaying your binary number" << endl;
+    cout << "Displaying your binary number in ones compliment" << endl;
     for (int i = 0; i < s.length(); i++)
     {
 
