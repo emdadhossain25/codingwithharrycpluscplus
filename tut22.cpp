@@ -56,7 +56,7 @@ void Binary::display(void)
     for (int i = 0; i < s.length(); i++)
     {
 
-        cout << s.at(i) << endl;
+        cout << s.at(i);
     }
 }
 int main()
