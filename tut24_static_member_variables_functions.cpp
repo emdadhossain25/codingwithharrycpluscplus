@@ -32,7 +32,7 @@ public:
     }
 };
 
-int Employee::count; // default value is 0 for static values;
+int Employee::count =1000; // default value is 0 for static values;
 int main()
 {
     // freopen("input.txt", "r", stdin);
