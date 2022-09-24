@@ -32,7 +32,7 @@ public:
     }
 };
 
-int Employee::count =1000; // default value is 0 for static values;
+int Employee::count = 1000; // default value is 0 for static values;
 int main()
 {
     // freopen("input.txt", "r", stdin);
@@ -41,11 +41,16 @@ int main()
     Employee emdad;
     emdad.setData();
     emdad.getData();
-    emdad.setData();
-    emdad.getData();
+    Employee::getCount(); // accessing static variable from class directly without any objects
+
     emdad.setData();
     emdad.getData();
     Employee::getCount(); // accessing static variable from class directly without any objects
+
+    emdad.setData();
+    emdad.getData();
+    Employee::getCount(); // accessing static variable from class directly without any objects
+
     // harry.id= 1; can't do this as id and count are private data;
     // harry.count =1;
 
