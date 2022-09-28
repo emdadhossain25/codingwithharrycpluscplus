@@ -23,8 +23,13 @@ class Complex
 {
 
     int a, b;
-    friend int Calculator::sumRealComplex(Complex o1, Complex o2);
-    friend int Calculator::sumComComplex(Complex o1, Complex o2);
+
+    // declaring friend functions individually
+    // friend int Calculator::sumRealComplex(Complex o1, Complex o2);
+    // friend int Calculator::sumComComplex(Complex o1, Complex o2);
+
+    //Aliter: Declare Entire Calculator class as Friend
+    friend class Calculator;
 
 public:
     void setNumber(int n1, int n2)
